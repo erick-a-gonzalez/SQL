@@ -1,4 +1,4 @@
-#Create table about the people and what they do here
+#Create table about famous people and what their greatest achievement was
 CREATE TABLE famous_people (
     Name VARCHAR(255),
     Profession VARCHAR(255)
@@ -11,7 +11,18 @@ VALUES
     ('Elon Musk', 'Entrepeneur'),
     ('Leonardo da Vinci', 'Artist'),
     ('Marie Curie', 'Scientist'),
-    ('William Shakespeare', 'Playwright');
+    ('William Shakespeare', 'Playwright'),
+	('Isaac Newton', 'Physicist, Mathematician'),
+    ('Marie Curie', 'Physicist, Chemist'),
+    ('Martin Luther King Jr.', 'Civil Rights Leader'),
+    ('Nelson Mandela', 'Politician, Activist'),
+    ('Mother Teresa', 'Missionary'),
+    ('Steve Jobs', 'Entrepreneur'),
+    ('Winston Churchill', 'Politician, Statesman'),
+    ('Charles Darwin', 'Naturalist, Biologist'),
+    ('Mahatma Gandhi', 'Political Leader'),
+    ('Pablo Picasso', 'Artist'),
+    ('Amelia Earhart', 'Aviator');
 
 #Create famous people achievements table    
 CREATE TABLE famous_people_achievements (
@@ -26,7 +37,18 @@ VALUES
     ('Elon Musk', 'Founding and leading companies like Tesla and SpaceX, with achievements in reusable rockets and electric vehicles.'),
     ('Leonardo da Vinci', 'Creation of iconic works of art, including the "Mona Lisa" and "The Last Supper."'),
     ('Marie Curie', 'Pioneering research on radioactivity and being the first person to win Nobel Prizes in two different scientific fields (Physics and Chemistry).'),
-    ('William Shakespeare', 'Creating a timeless body of work in English literature, with famous plays like "Hamlet" and "Romeo and Juliet."');
+    ('William Shakespeare', 'Creating a timeless body of work in English literature, with famous plays like "Hamlet" and "Romeo and Juliet."'),
+    ('Isaac Newton', 'Formulated laws of motion and universal gravitation.'),
+    ('Marie Curie', 'Awarded Nobel Prizes in both Physics and Chemistry.'),
+    ('Martin Luther King Jr.', 'Championed civil rights through nonviolent activism.'),
+    ('Nelson Mandela', 'Fought against apartheid and became President of South Africa.'),
+    ('Mother Teresa', 'Received the Nobel Peace Prize for her work with the poor.'),
+    ('Steve Jobs', 'Co-founded Apple Inc. and introduced innovative technology products.'),
+    ('Winston Churchill', 'Led the UK as Prime Minister during World War II.'),
+    ('Charles Darwin', 'Developed the theory of evolution by natural selection.'),
+    ('Mahatma Gandhi', 'Led the Indian independence movement through nonviolent protest.'),
+    ('Pablo Picasso', 'Pioneered Cubism and was a prolific painter and sculptor.'),
+    ('Amelia Earhart', 'Became the first woman to fly solo across the Atlantic Ocean.');
     
     SELECT *
     FROM famous_people;
