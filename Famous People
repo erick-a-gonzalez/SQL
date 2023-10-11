@@ -1,4 +1,4 @@
-#Create Database in MySQL
+#Create Database in MySQL 
 CREATE DATABASE FamousPeople;
 
 #Using database
