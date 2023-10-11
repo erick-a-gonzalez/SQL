@@ -106,7 +106,7 @@ SELECT industry, AVG(avg_employee_tenure) AS average_tenure
 FROM fortune_companies
 GROUP BY industry;
 
-#Displaying each companies rank based on revenue, number of employees, and average employee tenure.
+#Displaying each companies rank based on revenue, number of employees, and average employee tenure
 SELECT company_name, industry, revenue, employees, avg_employee_tenure, 
 CASE WHEN revenue > 300 AND employees > 2000 THEN 'Highly Ranked'
 WHEN revenue > 200 AND avg_employee_tenure > 5 THEN 'Well-Ranked'
