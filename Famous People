@@ -1,0 +1,41 @@
+#Create table about the people and what they do here
+CREATE TABLE famous_people (
+    Name VARCHAR(255),
+    Profession VARCHAR(255)
+    );
+
+#Inserting famous people into table
+INSERT INTO famous_people (Name, Profession)
+VALUES
+    ('Albert Einstein', 'Physicist'), 
+    ('Elon Musk', 'Entrepeneur'),
+    ('Leonardo da Vinci', 'Artist'),
+    ('Marie Curie', 'Scientist'),
+    ('William Shakespeare', 'Playwright');
+
+#Create famous people achievements table    
+CREATE TABLE famous_people_achievements (
+    Name VARCHAR(255), 
+    Achievement TEXT
+);
+
+#Insert famous people achievement into table
+INSERT INTO famous_people_achievements (Name, Achievement)
+VALUES
+    ('Albert Einstein', 'Development of the theory of relativity, including the equation E=mc^2.'), 
+    ('Elon Musk', 'Founding and leading companies like Tesla and SpaceX, with achievements in reusable rockets and electric vehicles.'),
+    ('Leonardo da Vinci', 'Creation of iconic works of art, including the "Mona Lisa" and "The Last Supper."'),
+    ('Marie Curie', 'Pioneering research on radioactivity and being the first person to win Nobel Prizes in two different scientific fields (Physics and Chemistry).'),
+    ('William Shakespeare', 'Creating a timeless body of work in English literature, with famous plays like "Hamlet" and "Romeo and Juliet."');
+    
+    SELECT *
+    FROM famous_people;
+    
+    SELECT *
+    FROM famous_people_achievements;
+    
+    #Joining both tables to display famous person, profession, and their achievement
+    SELECT famous_people.name, famous_people.profession, famous_people_achievements.achievement
+    FROM famous_people
+    JOIN famous_people_achievements
+    ON famous_people.name = famous_people_achievements.name;
