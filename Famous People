@@ -12,7 +12,7 @@ VALUES
     ('Leonardo da Vinci', 'Artist'),
     ('Marie Curie', 'Scientist'),
     ('William Shakespeare', 'Playwright'),
-	('Isaac Newton', 'Physicist, Mathematician'),
+    ('Isaac Newton', 'Physicist, Mathematician'),
     ('Marie Curie', 'Physicist, Chemist'),
     ('Martin Luther King Jr.', 'Civil Rights Leader'),
     ('Nelson Mandela', 'Politician, Activist'),
