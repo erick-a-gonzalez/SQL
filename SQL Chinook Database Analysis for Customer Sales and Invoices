@@ -1,3 +1,5 @@
+/* The dataset called chinook, which represents a digital media store and includes tables for artists, albums, media tracks, invoices, and customers. */
+
 /* To show all the tables in the database called chinook. */
 SELECT * FROM albums;
 
